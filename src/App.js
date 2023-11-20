@@ -24,11 +24,18 @@
 
 // export default App;
 
+import {BrowserRouter,Routes,Route} from 'react-router-dom';
+import About from './components/About.js'
+
 const App = () => {
   return (
-
-    <div className='App'> hHELLO!!!!!!!!!</div>
-  )
-  }
+    <BrowserRouter>
+        <Routes>
+      <Route path = "/portfolio" element={<About/>}/>
+    </Routes>
+    </BrowserRouter>
+    // <div className='App'> hHELLO!!!!!!!!!</div>
+  );
+  };
 export default App
 
