@@ -1,0 +1,26 @@
+.card{
+    padding: 0%;
+    width:fit-content;
+    /* width: 50rem;
+    height:10rem; */
+    /* align-items: flex-start; */
+    /* margin-left: 0%; */
+    justify-content:end;
+}
+
+.greetings{
+    font-family: roboto;
+    color:darkolivegreen;
+    font-size:50pt;
+}
+
+.about-section{
+    padding-top: 100px;
+    font-family: roboto;
+    font-size: 20pt;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url("../fonts/roboto.ttf");
+  }

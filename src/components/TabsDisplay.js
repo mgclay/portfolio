@@ -2,20 +2,22 @@ import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import 'bootstrap/dist/css/bootstrap.css';
 import './TabsDisplay.css'
-
+import sprite from '../images/me_sprite.png'
+import About from './About'
 const TabsDisplay = () => {
     return (
+        <div>
+            <img src= {sprite} className='sprite' alt = ''></img>
         <div className='tabs-display'>
     <Tabs
         justify variant='pills'
         defaultActiveKey="about"
-        id="fill-tab-example"
+        id="justify-tab-example"
         className='mb-3 myTabs'
-        fill
-        // className="mb-3 pg-tabs"
-        // justify
+        
     >
         <Tab eventKey = "about" title= "about me" tabClassName='tabs-button'>
+            <About/>
 
         </Tab>
         <Tab eventKey = "works" title = "experience" tabClassName='tabs-button'>
@@ -25,6 +27,7 @@ const TabsDisplay = () => {
 
         </Tab>
     </Tabs>
+    </div>
     </div>
     )
 }
