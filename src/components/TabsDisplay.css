@@ -1,47 +1,44 @@
 @font-face {
-    font-family: roboto;
-    src: url("../fonts/roboto.ttf");
-  }
+    font-family: bree;
+    src: url("../fonts/BreeSerif-Regular.ttf");
+}
 
 .tabs-display {
-    margin-left: 5%;
-    margin-top: 3%;
+    /* margin-left: 5%;
+    margin-top: 3%; */
     /* width: 60vw;
     max-width: 60vw; */
     /* margin-left: 2%; */
-    height: 50vh;
-    width:100vw;
-    display: grid;
-    align-items:self-start;
+    margin-top: 4%;
+    margin-left: 6.5%;
+    height: 10vh;
+    /* width:100vw; */
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
     /* justify-content: flex-start; */
     background-color: white;
-    /* padding-top: 20px;
-    padding-bottom: 10px;
-    padding-left: 50px; */
-    /* padding: 10px; */
-    /* overflow-x: hidden;
-    overflow-y: hidden; */
 }
 
 .myTabs{
-    margin-left: 2%;
-    width:fit-content;
+    width: 50vw;
+    flex-wrap:nowrap;
     display:flex;
-    flex:1;
+    /* padding-top: 1.5%; */
+    margin-left: 3.5%;
     
 }
 
 .myTabs .nav-tabs,
 .myTabs .nav-link {
     background-color: white;
-    color: rgb(26, 68, 38);
+    color: rgba(32,78,43,255);
     font-size: calc(1.1vw + 1vh);
-    font-weight: bold;
+    /* font-weight: bold; */
     margin: 0px;
 }
 
-.myTabs .nav-link.active {
-    background-color: white;
+.myTabs .nav-link.active {    background-color: white;
     color:rgb(81, 133, 95)
 }
 
@@ -55,7 +52,7 @@
 }
 
 .tabs-button {
-    font-family: roboto;
+    font-family: bree;
     /* font-size: 18px;
     font-weight: bold;
     font-stretch: normal;
@@ -70,9 +67,12 @@
 }
 
 .sprite {
-    /* margin:10%; */
-    margin-left: 4%;
-    size: 100%;
+    min-width:3.5%;
+    max-width: 3.5%;
     display: flex;
+    /* margin:10%; */
+    /* display: flex; */
     position: absolute;
+    height: auto;
+    flex-wrap: nowrap;
 }

@@ -5,7 +5,9 @@ import {Box, createTheme, CssBaseline, ThemeProvider} from '@mui/material'
 const Main = () => {
     
     return (
+        <div className='everything'>
         <TabsDisplay/>
+        </div>
     )
 }
 export default Main;

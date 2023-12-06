@@ -4,11 +4,13 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './TabsDisplay.css'
 import sprite from '../images/me_sprite.png'
 import About from './About'
+import Experience from './Experience'
+import Contact from './Contact'
 const TabsDisplay = () => {
     return (
-        <div>
-            <img src= {sprite} className='sprite' alt = ''></img>
+        
         <div className='tabs-display'>
+            <img src= {sprite} className='sprite' alt = ''></img>
     <Tabs
         justify variant='pills'
         defaultActiveKey="about"
@@ -17,17 +19,17 @@ const TabsDisplay = () => {
         
     >
         <Tab eventKey = "about" title= "about me" tabClassName='tabs-button'>
+            <div className = 'field'>
             <About/>
-
+            </div>
         </Tab>
         <Tab eventKey = "works" title = "experience" tabClassName='tabs-button'>
-            
+            <Experience/>
         </Tab>
         <Tab eventKey = "resume" title = "contact/resume" tabClassName='tabs-button'>
-
+            <Contact/>
         </Tab>
     </Tabs>
-    </div>
     </div>
     )
 }

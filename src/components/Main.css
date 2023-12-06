@@ -1,35 +1,15 @@
-.about {
-    /* width: 100vw; */
-    /* display: flex; */
-    /* align-items: stretch; */
-    /* justify-content:safe; */
-    /* flex-direction: row; */
-    /* background-color: rgb(255, 198, 198); */
-    /* padding: 10px; */
-    /* padding-top:30%; */
-    /* align-content: center;
-    flex-direction: column;
-    justify-content: space-between; */
-    
-    /* align-items: center; */
-    /* flex:1 1 auto; */
-    /* justify-content: center; */
-
-    .about-card {
-        background-color: rgb(9, 41, 3);
-        color: white;
-        /* height:fit-content; */
-        padding-left:50vw;
-        /* display:flex; */
-        /* align-items:center; */
-        /* justify-content:center; */
-        /* flex-direction: column; */
-    }
-
+.everything{
+    display: flex;
+    align-items: stretch;
+    position: relative;
+  
+    /* IMPORTANT:KEEP AS MIN HEIGHT NOT HEIGHT*/
+    /* https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/ */
+    min-height: 100vh;
 }
 
 @font-face {
-    font-family: roboto;
-    src: url("../fonts/roboto.ttf");
+    font-family: bot;
+    src: url("../fonts/bot.ttf");
   }
 
