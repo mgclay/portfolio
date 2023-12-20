@@ -6,6 +6,7 @@ const SpriteWave = () => {
         <div className='waving'>
         <Spritesheet
         className='waving'
+        style={{maxWidth:'270px'}}
         image = {waving}
         widthFrame={270}
         heightFrame={270}
