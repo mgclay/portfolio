@@ -6,7 +6,7 @@ import orange from '../sprites/orange_heart.png'
 import orange_gif from '../sprites/orange_happy_gif.gif'
 const MeWithCat = () => {
     return(
-        <div className='standing'>
+        <div className='waving'>
 
             <img src = {me}></img>
             <img src = {orange_gif} className='cat'></img>

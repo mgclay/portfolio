@@ -1,7 +1,7 @@
 .contents {
     display: flex;
     flex-direction: row;
-    height:40vh;
+    /* height:40vh; */
 }
 
 .card{
@@ -10,7 +10,7 @@
     display:flex;
     align-self:center;
     font-weight:normal;
-    margin-top:10vh;
+    margin-top:7vh;
     font-family: bree;
     font-size: calc(0.8vw + 1.3vh);
     flex-wrap: nowrap;
