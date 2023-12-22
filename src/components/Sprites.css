@@ -1,45 +1,33 @@
 .waving{
-    /* padding-top: 7vh;
-    padding-left: 10%; */
-    padding-left: 10%;
+    padding-left: 8%;
     margin-top: 7vh;
     width: 270px;
     display:flex;
-    /* max-width: 270px;
-    min-width: 270px; */
-    /* flex-wrap: wrap; */
     flex-direction: row;
 }
 
 .standing{
-    /* margin-top: 7vh; */
-    width: 270px;
-    max-width: 270px;
-    /* padding-top: 2vh;
-    margin-top: 7vh;
-    padding-left: 10%; */
-    /* width: 270px; */
-    display:flex;
-    flex-direction: row;
+    max-height: calc(270px + 7vh);
 }
 
 .cat{
-    padding-bottom: 2vh;
+    max-height: calc(200px + 7vh);
+    align-self: flex-start;
+    margin-top: 4.5vh;
+    /* padding-bottom: 2vh;
     width: 255px;
     height: 255px;
-    align-self: flex-end;
+    align-self: flex-start; */
 
 }
 
 .phone{
-    /* padding-top: 7vh;
-    padding-left: 10%; */
-    padding-left: 10%;
+    margin-top: 7vh;
+    /* max-height: calc(270px + 7vh); */
+    max-height: 270px;
+    /* padding-left: 10%;
     margin-top: 13vh;
     width: 270px;
     display:flex;
-    /* max-width: 270px;
-    min-width: 270px; */
-    /* flex-wrap: wrap; */
-    flex-direction: row;
+    flex-direction: row; */
 }

@@ -1,11 +1,12 @@
 .contents {
+    width: 120vw;
     display: flex;
     flex-direction: row;
     /* height:40vh; */
 }
 
 .card{
-    width: 40vw;
+    width: 48vw;
     word-wrap: none;
     display:flex;
     align-self:center;
@@ -41,4 +42,29 @@
 @font-face {
     font-family: bree;
     src: url("../fonts/BreeSerif-Regular.ttf");
+}
+
+.resume{
+    color: black;
+    border: 0;
+    background-color: white;
+    align-self: flex-start;
+    text-decoration: underline;
+    font-size: calc(0.6vw + 1.3vh);
+}
+
+.resume:hover{
+    color: rgb(81, 133, 95);
+    
+}
+
+/* .second-row{
+    display: flex;
+    flex-direction: row;
+} */
+
+.portrait {
+    margin-top: 10%;
+    max-width: 239px;
+    max-height: 239px;
 }

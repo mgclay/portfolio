@@ -8,7 +8,7 @@ const MeWithCat = () => {
     return(
         <div className='waving'>
 
-            <img src = {me}></img>
+            <img src = {me} className='standing'></img>
             <img src = {orange_gif} className='cat'></img>
             {/* <Spritesheet
             className='waving'

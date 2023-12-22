@@ -28,8 +28,10 @@ const TabsDisplay = () => {
             <Experience/>
             </div>
         </Tab>
-        <Tab eventKey = "resume" title = "contact/resume" tabClassName='tabs-button'>
+        <Tab eventKey = "resume" title = "contact" tabClassName='tabs-button'>
+            <div className='field'>
             <Contact/>
+            </div>
         </Tab>
     </Tabs>
     </div>

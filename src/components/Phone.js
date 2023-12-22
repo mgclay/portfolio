@@ -4,8 +4,8 @@ import phone from '../images/contact_me_scaled.png'
 const Phone = () => {
 
     return (
-        <div className='phone'>
-            <img src = {phone} className='standing'></img>
+        <div className='waving'>
+            <img src = {phone} className='phone'></img>
         </div>
     )
 }
