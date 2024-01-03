@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.44cc949c.css",
-    "main.js": "/portfolio/static/js/main.b1d749d2.js",
+    "main.js": "/portfolio/static/js/main.a9b5fe76.js",
     "static/js/787.7da95b79.chunk.js": "/portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/bot.ttf": "/portfolio/static/media/bot.e14e25b7c497634efdfe.ttf",
+    "static/media/mary_clay_resume.pdf": "/portfolio/static/media/mary_clay_resume.7085ab91101e5792339b.pdf",
     "static/media/BreeSerif-Regular.ttf": "/portfolio/static/media/BreeSerif-Regular.751eb941c0e1335ad247.ttf",
     "static/media/me.jpg": "/portfolio/static/media/me.ba32e60d5e86f3c8ff11.jpg",
-    "static/media/resume_mary_clay.pdf": "/portfolio/static/media/resume_mary_clay.3e8c8c8d9381bb3be5d4.pdf",
     "static/media/waving.png": "/portfolio/static/media/waving.0b61ddf83f52f8f533da.png",
     "index.html": "/portfolio/index.html",
     "main.44cc949c.css.map": "/portfolio/static/css/main.44cc949c.css.map",
-    "main.b1d749d2.js.map": "/portfolio/static/js/main.b1d749d2.js.map",
+    "main.a9b5fe76.js.map": "/portfolio/static/js/main.a9b5fe76.js.map",
     "787.7da95b79.chunk.js.map": "/portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.44cc949c.css",
-    "static/js/main.b1d749d2.js"
+    "static/js/main.a9b5fe76.js"
   ]
 }
