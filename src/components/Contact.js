@@ -3,7 +3,7 @@ import './About.css'
 import Phone from './Phone'
 import { useEffect, useState } from 'react';
 const Contact = () => {
-    const text = 'marygclay@outlook.com'
+    const text = '[copy to clipboard]'
 
     const handleCopy = () => {
         navigator.clipboard.writeText(text);
@@ -20,7 +20,7 @@ const Contact = () => {
             <a href='https://github.com/mgclay' target='_blank' className='resume'> Github</a>
             </Card.Body>
             <Card.Body>
-                Email: 
+                Email: marygclay@outlook.com
                     <button className='resume' onClick={handleCopy}>{text}</button>
                 {/* <img src = {copy} onClick={handleCopy}></img> */}
             </Card.Body>

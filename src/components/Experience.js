@@ -31,7 +31,11 @@ const Experience = () => {
             <Card.Body>
                 <a href='https://studybuddy.life/' target='_blank' className='resume'>go to study buddy</a>
             </Card.Body>
-        </Card>
+            <Card.Body>
+                Other valuable experience I have comes from being a TA for 3 semesters for the software security course at Temple. This course aims to familiarize students with common vulnerabilities, like those in the OWASP Top 10 and SANS Top 25, and 
+                teach them how to detect and avoid them. In this role, I graded assignments and provided support for students, and learned a lot about the cybersecurity sphere, too.
+            </Card.Body>
+            </Card>
         <Cat/>
         </div>
     )
