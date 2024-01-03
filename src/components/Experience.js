@@ -1,13 +1,13 @@
 import { Card } from 'react-bootstrap';
 import './About.css'
 import Cat from './MeWithCat'
-import resume from '../files/resume_mary_clay.pdf'
+import resume from '../files/mary_clay_resume.pdf'
 import { useState } from 'react';
 const handleDownload = () => {
     const pdfurl = resume;
     const link = document.createElement("a");
     link.href = pdfurl;
-    link.download = "resume_mary_clay.pdf"; // specify the filename
+    link.download = "mary_clay_resume.pdf"; // specify the filename
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
